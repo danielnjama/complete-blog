@@ -1,4 +1,5 @@
 from pathlib import Path
+import dj-database-url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -77,6 +78,7 @@ DATABASES = {
     }
 }
 #postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe
+DATABASES["default"]=dj_database_url.parse("postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe")
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
