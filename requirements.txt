@@ -2,3 +2,4 @@ Django
 django-ckeditor
 pillow
 gunicorn
+whitenoise
