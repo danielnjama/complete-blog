@@ -3,3 +3,4 @@ django-ckeditor
 pillow
 gunicorn
 whitenoise
+psycopg2-binary
