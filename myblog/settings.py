@@ -67,16 +67,16 @@ WSGI_APPLICATION = 'myblog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydatabase_keoe',       # Replace with your actual database name
-        'USER': 'myuser',           # Replace with your actual database username
-        'PASSWORD': 'iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a',   # Replace with your actual database password
-        'HOST': 'localhost',       # Replace with your actual database host 
-        'PORT': '5432',             # Replace with your actual database port if different
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'mydatabase_keoe',       # Replace with your actual database name
+#         'USER': 'myuser',           # Replace with your actual database username
+#         'PASSWORD': 'iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a',   # Replace with your actual database password
+#         'HOST': 'localhost',       # Replace with your actual database host 
+#         'PORT': '5432',             # Replace with your actual database port if different
+#     }
+# }
 #postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe
 DATABASES["default"]=dj_database_url.parse("postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe")
 # DATABASES = {
