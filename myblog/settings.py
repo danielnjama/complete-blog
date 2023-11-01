@@ -85,7 +85,7 @@ DATABASES = {
 #     }
 # }
 #postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe
-DATABASES["default"]=dj_database_url.parse("postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe")
+#DATABASES["default"]=dj_database_url.parse("postgres://myuser:iBYOikHdwb422cky2MHlftFs997mQO6I@dpg-ckvlgn6b0mos73akrldg-a/mydatabase_keoe")
 
 
 # Password validation
